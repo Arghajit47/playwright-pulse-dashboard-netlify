@@ -1,8 +1,14 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
-/package-lock.json
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # testing
 /coverage
@@ -14,29 +20,47 @@
 # production
 /build
 
+# misc
+.DS_Store
+*.pem
+
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# local env files
-.env*.local
+.pnpm-debug.log*
 
 # vercel
-.vercel
+/.vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
-# project specific build artifacts (copied during build)
-next.config.ts
-/public
+# env
+.env*
+
+# IDEs and editors
+/.vscode
+/.idea
+/.idx
+/.modified
+.markdownlint.json
+.markdownlintignore
+
+# build artifacts
+/dist
+/docs
+/tsconfig.build.json
 
 # misc
 .DS_Store
 *.pem
+google96bc47b2409f5be5.html
+index.html
 
-# pulse-report large files
-pulse-report/*.html
-pulse-report/history/*.json
+# data (exclude large reports)
+/pulse-report/*.html
+/pulse-report/history/
+/pulse-report/attachments/
+/netlify-pulse-dashboard/.

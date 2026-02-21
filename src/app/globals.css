@@ -1,0 +1,275 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root { /* Arctic Sky - Light Theme */
+    --background: 220 60% 98%; /* Very light cool gray */
+    --foreground: 220 25% 25%; /* Dark de-saturated blue/gray */
+
+    --muted: 220 30% 92%; /* Light gray for muted backgrounds */
+    --muted-foreground: 220 20% 50%; /* Mid-gray for muted text */
+
+    --popover: 0 0% 100%; /* Clean white for popovers */
+    --popover-foreground: 220 25% 20%; /* Dark text for popovers */
+
+    --card: 0 0% 100%; /* Clean white for cards */
+    --card-foreground: 220 25% 22%; /* Dark text for cards */
+
+    --border: 220 20% 88%; /* Soft cool gray border */
+    --input: 220 30% 94%; /* Slightly off-white input background */
+
+    --primary: 180 70% 45%; /* Electric cyan/teal - main interactive */
+    --primary-foreground: 200 100% 98%; /* Very light, almost white for high contrast on primary */
+
+    --secondary: 200 70% 70%; /* Soft complementary light pastel blue */
+    --secondary-foreground: 220 25% 25%; /* Dark text on secondary */
+
+    --accent: 45 74% 47%; /* Dark Yellow for skipped */
+    --accent-foreground: 45 100% 10%; /* Dark text for contrast on dark yellow */
+
+    --destructive: 0 72% 51%; /* Standard destructive red */
+    --destructive-foreground: 0 0% 98%; /* White text on destructive */
+
+    --ring: 180 70% 50%; /* Slightly brighter primary for focus rings */
+
+    /* Chart Colors - Light Theme */
+    --chart-1: 180 65% 50%; /* Primary - Cyan/Teal (main data bars/lines) */
+    --chart-2: 290 55% 60%; /* Accent - Magenta/Violet (secondary data lines, e.g., Total Tests) */
+    --chart-3: 120 50% 55%; /* Green (lime/emerald for 'Passed') */
+    --chart-4: 0 70% 60%;   /* Red (rose/coral for 'Failed') */
+    --chart-5: 45 74% 47%;  /* Dark Yellow (for 'Skipped') */
+    --chart-info: 220 60% 65%; /* Blue for general info lines like Flakiness */
+    
+    --flaky: 199 89% 48%;
+      /* Sky 500 equivalent for Flaky tests */
+      --flaky-foreground: 0 0% 100%;
+      /* White text on flaky */
+    /* Sidebar specific - Light Theme */
+    --sidebar-background: 220 50% 96%; /* Slightly cooler, distinct from main bg */
+    --sidebar-foreground: 220 25% 30%; /* Darker text for sidebar */
+    --sidebar-border: 220 30% 85%; /* Soft border for sidebar */
+    --sidebar-accent: 220 45% 90%; /* Distinct active item background: darker, more saturated light cool gray */
+    --sidebar-accent-foreground: 220 25% 20%; /* Distinct active item text: very dark blue/gray for contrast */
+    --sidebar-hover-background: 220 40% 92%; /* Slightly darker for hover */
+    --sidebar-hover-foreground: 220 25% 25%; /* Prominent text on hover */
+    --sidebar-ring: hsl(var(--ring));
+
+    /* Sidebar Tab Label Colors - Light Theme */
+    --sidebar-tab-dashboard-color-hsl: 210 60% 50%;
+    --sidebar-tab-results-color-hsl: 170 50% 45%;
+    --sidebar-tab-trends-color-hsl: 260 50% 55%;
+    --sidebar-tab-flaky-color-hsl: 199 89% 48%;
+      /* Sky 500 */
+    --sidebar-tab-failures-color-hsl: 230 55% 60%;
+    --sidebar-tab-command-color-hsl: 280 60% 50%;
+    --sidebar-tab-settings-color-hsl: 220 10% 50%;
+
+
+    /* Skeleton Loader Colors - Light Theme */
+    --skeleton-bg: 220 30% 90%; /* Muted background for skeleton */
+    --skeleton-highlight: 220 30% 85%; /* Slightly lighter highlight */
+
+    /* Suite Title Colors - Light Theme */
+    --suite-color-1-hsl: 210 65% 55%; /* Distinct Blue */
+    --suite-color-2-hsl: 280 50% 58%; /* Purple */
+    --suite-color-3-hsl: 330 60% 60%; /* Pink/Rose */
+    --suite-color-4-hsl: 150 55% 50%; /* Sea Green/Teal variant */
+    --suite-color-5-hsl: 25 70% 55%;  /* Burnt Orange */
+  }
+
+  .dark { /* Neon Noir - Dark Theme */
+    --background: 220 30% 8%; /* Very dark, almost black blue */
+    --foreground: 220 20% 90%; /* Off-white, cool gray text */
+
+    --muted: 220 25% 18%; /* Darker muted background */
+    --muted-foreground: 220 15% 65%; /* Mid-gray for muted text */
+
+    --popover: 220 28% 10%; /* Dark popover background */
+    --popover-foreground: 220 20% 88%; /* Lighter text for popovers */
+
+    --card: 220 25% 12%; /* Dark card background, slightly lighter than main BG */
+    --card-foreground: 220 20% 88%; /* Lighter text for cards */
+
+    --border: 220 20% 25%; /* Subtle dark border */
+    --input: 220 20% 20%; /* Dark input background */
+
+    --primary: 180 70% 55%; /* Vibrant electric cyan/teal - main interactive */
+    --primary-foreground: 200 100% 98%; /* Very light, almost white for high contrast on primary */
+
+    --secondary: 290 60% 60%; /* Deep purple/magenta for secondary elements */
+    --secondary-foreground: 220 20% 90%; /* Light text on secondary */
+
+    --accent: 45 74% 50%; /* Dark Yellow for skipped (slightly lighter for dark mode if needed) */
+    --accent-foreground: 45 100% 10%; /* Dark text for contrast on dark yellow */
+
+    --destructive: 0 70% 55%; /* More vibrant red for dark mode */
+    --destructive-foreground: 0 0% 98%; /* White text on destructive */
+
+    --ring: 180 75% 60%; /* Brighter primary for focus rings */
+
+    /* Chart Colors - Dark Theme (ensure good contrast) */
+    --chart-1: 180 70% 60%; /* Primary - Cyan/Teal */
+    --chart-2: 290 60% 65%; /* Accent - Magenta/Violet */
+    --chart-3: 120 55% 60%; /* Green */
+    --chart-4: 0 75% 65%;   /* Red */
+    --chart-5: 45 74% 50%;  /* Dark Yellow */
+    --chart-info: 220 60% 70%; /* Blue for general info */
+    --flaky: 199 95% 60%;
+      /* Sky 400 equivalent for Flaky tests in Dark Mode */
+      --flaky-foreground: 220 20% 10%;
+      /* Dark text on flaky */
+
+    /* Sidebar specific - Dark Mode */
+    --sidebar-background: 220 28% 10%; /* Slightly distinct dark for sidebar */
+    --sidebar-foreground: 220 20% 85%; /* Light text for sidebar */
+    --sidebar-border: 220 20% 20%; /* Darker, subtle border for sidebar */
+    --sidebar-accent: 220 25% 18%; /* Distinct active item background: lighter, pronounced dark blue */
+    --sidebar-accent-foreground: 220 15% 95%; /* Distinct active item text: very light for contrast */
+    --sidebar-hover-background: 220 25% 15%; /* Slightly lighter for hover */
+    --sidebar-hover-foreground: 220 20% 92%; /* Brighter text on hover */
+    --sidebar-ring: hsl(var(--ring));
+
+    /* Sidebar Tab Label Colors - Dark Theme */
+    --sidebar-tab-dashboard-color-hsl: 210 60% 70%;
+    --sidebar-tab-results-color-hsl: 170 50% 65%;
+    --sidebar-tab-trends-color-hsl: 260 50% 75%;
+    --sidebar-tab-flaky-color-hsl: 199 95% 60%;
+      /* Sky 400 */
+    --sidebar-tab-failures-color-hsl: 230 55% 80%;
+    --sidebar-tab-command-color-hsl: 280 60% 70%;
+    --sidebar-tab-settings-color-hsl: 220 10% 70%;
+
+    /* Skeleton Loader Colors - Dark Theme */
+    --skeleton-bg: 220 20% 15%; /* Darker base for skeleton */
+    --skeleton-highlight: 220 20% 20%; /* Slightly lighter highlight for dark skeleton */
+
+    /* Suite Title Colors - Dark Theme */
+    --suite-color-1-hsl: 210 65% 65%;
+    --suite-color-2-hsl: 280 50% 68%;
+    --suite-color-3-hsl: 330 60% 70%;
+    --suite-color-4-hsl: 150 55% 60%;
+    --suite-color-5-hsl: 25 70% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+}
+
+/* Enhanced Recharts Tooltip & Legend Styling */
+.custom-recharts-tooltip {
+  @apply rounded-lg border border-border/50 bg-popover p-3 text-xs text-popover-foreground shadow-xl backdrop-blur-sm;
+  outline: none !important;
+}
+.custom-recharts-tooltip .label {
+  @apply mb-1.5 block font-semibold text-sm;
+}
+
+.recharts-default-legend {
+  @apply pt-3;
+}
+.recharts-legend-item {
+  @apply mr-4 !important; /* Ensure spacing */
+}
+.recharts-legend-item-text {
+  color: hsl(var(--muted-foreground)) !important;
+  @apply text-xs pl-1;
+}
+.recharts-surface { /* The little color swatch in legend */
+  @apply !mr-1.5;
+}
+
+.recharts-cartesian-axis-tick-value {
+   fill: hsl(var(--muted-foreground)) !important;
+   @apply text-[10px];
+}
+
+/* Enhanced Skeleton Pulse Animation */
+@keyframes pulse-enhanced {
+  0%, 100% {
+    background-color: hsl(var(--skeleton-bg));
+  }
+  50% {
+    background-color: hsl(var(--skeleton-highlight));
+  }
+}
+.animate-pulse-enhanced {
+  animation: pulse-enhanced 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Remove default focus outline from Recharts areas when using custom focus */
+.recharts-wrapper:focus, .recharts-surface:focus {
+  outline: none !important;
+}
+
+/* Dashboard Card Animations */
+@keyframes card-gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: card-gradient-shift 8s ease infinite;
+}
+
+/* Metric Card Hover Scale */
+@keyframes metric-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.01);
+  }
+}
+
+/* Icon Badge Rotation on Hover */
+@keyframes icon-spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-icon-spin-slow {
+  animation: icon-spin-slow 20s linear infinite;
+}
+
+/* Shimmer Effect for Loading States */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    to right,
+    hsl(var(--muted)) 4%,
+    hsl(var(--muted-foreground) / 0.1) 25%,
+    hsl(var(--muted)) 36%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite linear;
+}
+

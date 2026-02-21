@@ -1,13 +1,9 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:netlify"
   publish = ".next"
 
-[build.environment]
-  PULSE_REPORT_DIR = "pulse-report"
-  PULSE_USER_CWD = "."
-
 [dev]
-  command = "npm run pulse-dashboard"
+  command = "npm run dev"
   port = 9002
   targetPort = 9002
 

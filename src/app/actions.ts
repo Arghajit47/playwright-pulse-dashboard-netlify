@@ -1,0 +1,202 @@
+
+'use server';
+
+import fs from 'fs/promises';
+import path from 'path';
+import type { PlaywrightPulseReport, DetailedTestResult, FlakyTestDetail, FlakyTestOccurrence } from '@/types/playwright';
+import { getEffectiveTestStatus } from '@/lib/testUtils';
+
+
+export async function getCurrentRunReport(): Promise<PlaywrightPulseReport | null> {
+  const pulseUserCwdFromEnv = process.env.PULSE_USER_CWD;
+  const pulseReportDirFromEnv = process.env.PULSE_REPORT_DIR;
+  const currentProcessCwd = process.cwd();
+
+  const baseDir = (pulseUserCwdFromEnv && pulseUserCwdFromEnv.trim() !== '') ? pulseUserCwdFromEnv.trim() : currentProcessCwd;
+  const reportDir =
+    pulseReportDirFromEnv && pulseReportDirFromEnv.trim() !== ""
+      ? pulseReportDirFromEnv.trim()
+      : path.join(baseDir, "pulse-report");
+
+  const filePath = path.join(reportDir, "playwright-pulse-report.json");
+  
+  try {
+    const fileContent = await fs.readFile(filePath, 'utf-8');
+    return JSON.parse(fileContent) as PlaywrightPulseReport;
+  } catch (error) {
+    console.error(`[ACTIONS getCurrentRunReport] Error reading current run report:`, error);
+    return null;
+  }
+}
+
+export async function getRawHistoricalReports(): Promise<PlaywrightPulseReport[]> {
+  console.log('[ACTIONS getRawHistoricalReports] ------------- START -------------');
+  const pulseUserCwdFromEnv = process.env.PULSE_USER_CWD;
+  const pulseReportDirFromEnv = process.env.PULSE_REPORT_DIR;
+  const currentProcessCwd = process.cwd();
+
+  console.log('[ACTIONS getRawHistoricalReports] process.env.PULSE_USER_CWD:', pulseUserCwdFromEnv);
+  console.log(
+    "[ACTIONS getRawHistoricalReports] process.env.PULSE_REPORT_DIR:",
+    pulseReportDirFromEnv
+  );
+  console.log('[ACTIONS getRawHistoricalReports] process.cwd():', currentProcessCwd);
+
+  const baseDir = (pulseUserCwdFromEnv && pulseUserCwdFromEnv.trim() !== '') ? pulseUserCwdFromEnv.trim() : currentProcessCwd;
+  const reportDir =
+    pulseReportDirFromEnv && pulseReportDirFromEnv.trim() !== ""
+      ? pulseReportDirFromEnv.trim()
+      : path.join(baseDir, "pulse-report");
+  
+  console.log('[ACTIONS getRawHistoricalReports] Effective baseDir determined:', baseDir);
+  console.log(
+    "[ACTIONS getRawHistoricalReports] Effective reportDir determined:",
+    reportDir
+  );
+  
+  const historyDir = path.join(reportDir, "history");
+  console.log('[ACTIONS getRawHistoricalReports] Attempting to read history directory:', historyDir);
+
+  try {
+    const trendFileNames = (await fs.readdir(historyDir)).filter(file => file.startsWith('trend-') && file.endsWith('.json'));
+    console.log(`[ACTIONS getRawHistoricalReports] Found ${trendFileNames.length} trend files in ${historyDir}`);
+    
+    const historicalDataArray: PlaywrightPulseReport[] = [];
+    for (const fileName of trendFileNames) {
+      const filePath = path.join(historyDir, fileName);
+      try {
+        const fileContent = await fs.readFile(filePath, 'utf-8');
+        const reportData = JSON.parse(fileContent) as PlaywrightPulseReport;
+        if (reportData.run && reportData.results) { 
+            // Ensure flakinessRate is carried over if it exists
+            if (reportData.run.flakinessRate === undefined) {
+              reportData.run.flakinessRate = 0; // Default if not present
+            }
+            historicalDataArray.push(reportData);
+        } else {
+            console.warn(`[ACTIONS getRawHistoricalReports] Skipping invalid historical report file (missing run or results): ${fileName}`);
+        }
+      } catch (fileReadError) {
+        console.error(`[ACTIONS getRawHistoricalReports] Error reading or parsing historical file ${fileName}:`, fileReadError);
+      }
+    }
+    
+    historicalDataArray.sort((a, b) => new Date(a.run.timestamp).getTime() - new Date(b.run.timestamp).getTime());
+    console.log('[ACTIONS getRawHistoricalReports] ------------- END (SUCCESS) -------------');
+    return historicalDataArray;
+  } catch (error: any) {
+    console.error(`[ACTIONS getRawHistoricalReports] Error accessing or reading historical trends directory ${historyDir}:`, error.message);
+    if (error instanceof Error && (error as NodeJS.ErrnoException).code === 'ENOENT') {
+        console.warn(`[ACTIONS getRawHistoricalReports] History directory not found at ${historyDir}. This is normal if no historical reports exist yet.`);
+    }
+    console.log('[ACTIONS getRawHistoricalReports] ------------- END (ERROR) -------------');
+    // Re-throw or return empty to allow API route to handle HTTP response
+    // For now, returning empty and letting API route handle it based on this logged error.
+    return []; 
+  }
+}
+
+export async function getFlakyTestsAnalysis(): Promise<{ success: boolean; currentFlakyTests?: FlakyTestDetail[]; historicalFlakyTests?: FlakyTestDetail[]; error?: string }> {
+  try {
+    const currentReport = await getCurrentRunReport();
+    const historicalReports = await getRawHistoricalReports();
+
+    // 1. Current Run Flaky Tests
+    const currentFlakyTests: FlakyTestDetail[] = [];
+    if (currentReport?.results) {
+      currentReport.results.forEach((testResult) => {
+        if (getEffectiveTestStatus(testResult) === 'flaky') {
+          currentFlakyTests.push({
+            id: testResult.id,
+            name: testResult.name,
+            suiteName: testResult.suiteName,
+            occurrences: [{
+              runTimestamp: currentReport.run.timestamp,
+              status: 'flaky',
+            }],
+            passedCount: 1, // It's flaky, so it eventually passed
+            failedCount: 0,
+            skippedCount: 0,
+            pendingCount: 0,
+            totalRuns: 1,
+            firstSeen: currentReport.run.timestamp,
+            lastSeen: currentReport.run.timestamp,
+          });
+        }
+      });
+    }
+
+    // 2. Historical Run Flaky Tests (Natural Logic)
+    if (historicalReports.length === 0) {
+      return { success: true, currentFlakyTests, historicalFlakyTests: [] };
+    }
+
+    const testStatsMap = new Map<string, {
+      name: string;
+      suiteName: string;
+      occurrences: FlakyTestOccurrence[];
+    }>();
+
+    for (const report of historicalReports) {
+      if (!report.results) continue;
+      for (const testResult of report.results) {
+        if (!testStatsMap.has(testResult.id)) {
+          testStatsMap.set(testResult.id, {
+            name: testResult.name,
+            suiteName: testResult.suiteName,
+            occurrences: [],
+          });
+        }
+        testStatsMap.get(testResult.id)!.occurrences.push({
+          runTimestamp: report.run.timestamp,
+          status: testResult.status,
+        });
+      }
+    }
+
+    const historicalFlakyTests: FlakyTestDetail[] = [];
+    for (const [id, data] of testStatsMap.entries()) {
+      const statuses = new Set(data.occurrences.map(o => o.status));
+      const hasPassed = statuses.has('passed');
+      const hasFailed = statuses.has('failed') || statuses.has('timedOut');
+
+      if (hasPassed && hasFailed) {
+        let passedCount = 0;
+        let failedCount = 0;
+        let skippedCount = 0;
+        let pendingCount = 0;
+
+        data.occurrences.forEach(occ => {
+          if (occ.status === 'passed') passedCount++;
+          else if (occ.status === 'failed' || occ.status === 'timedOut') failedCount++;
+          else if (occ.status === 'skipped') skippedCount++;
+          else if (occ.status === 'pending') pendingCount++;
+        });
+        
+        const sortedOccurrences = data.occurrences.sort((a,b) => new Date(a.runTimestamp).getTime() - new Date(b.runTimestamp).getTime());
+
+        historicalFlakyTests.push({
+          id,
+          name: data.name,
+          suiteName: data.suiteName,
+          occurrences: sortedOccurrences,
+          passedCount,
+          failedCount,
+          skippedCount,
+          pendingCount,
+          totalRuns: data.occurrences.length,
+          firstSeen: sortedOccurrences[0]?.runTimestamp || '',
+          lastSeen: sortedOccurrences[sortedOccurrences.length - 1]?.runTimestamp || '',
+        });
+      }
+    }
+    
+    historicalFlakyTests.sort((a,b) => (b.failedCount / b.totalRuns) - (a.failedCount / a.totalRuns) || b.totalRuns - a.totalRuns);
+
+    return { success: true, currentFlakyTests, historicalFlakyTests };
+  } catch (error) {
+    console.error('[ACTIONS getFlakyTestsAnalysis] Error analyzing flaky tests:', error);
+    const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred during flaky test analysis.';
+    return { success: false, error: errorMessage };
+  }
+}
