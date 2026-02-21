@@ -1,0 +1,104 @@
+=== OCR Text Comparison Report ===
+Generated: 2025-12-13T10:12:14.475Z
+
+Status: TEXT DIFFERENCES DETECTED
+
+Line 1 differs:
+  Baseline: USDollar Register Login Wishiist(0)  [) Shopping cart (0)
+  Current:  USDollar Register Login Wisnist(0) (3) Shopping cart 0)
+
+Line 2 differs:
+  Baseline: 222% nopCommerce search sore
+  Current:  222% nopCommerce Search sore
+
+Line 17 differs:
+  Baseline: Online shopping is the process consumers go through to purchase products or services over the Internet. You can edit this in the admin
+  Current:  Online shopping is the process consumers go through to purchase products or services over the Intemet. You can edit this in the admin
+
+Line 27 differs:
+  Baseline: | ©
+  Current:  B=
+
+Line 33 differs:
+  Baseline: News
+  Current:  ADD TO CART [It=iliv] ADD TO CART [It=iliv] ADD TO CART [It=iliv] ADD TO CART [It=iliv]
+
+Line 34 differs:
+  Baseline: About nopCommerce nopCommerce new release! New online store is open!
+  Current:  News
+
+Line 35 differs:
+  Baseline: -Tuesday, November 4, 2025 -Tuesday, November 4, 2025 Tuesday, November 4, 2025
+  Current:  About nopCommerce nopCommerce new release! New online store is open!
+
+Line 36 differs:
+  Baseline: its stable and highly usable. From downloads ~~ nopCommerce includes everything you need ~The new nopCommerce store is open now!
+  Current:  -Tuesday, November 4, 2025 -Tuesday, November 4, 2025 -Tuesday, November 4, 2025
+
+Line 37 differs:
+  Baseline: to documentation, www.nopCommerce.com to begin your e-commerce online store. We We are very excited to offer our new range of
+  Current:  It's stable and highly usable. From downloads nopCommerce includes everything you need The new nopCommerce store is open now!
+
+Line 38 differs:
+  Baseline: offers a comprehensive base of information, have thought of everything and its all products. We will be constantly adding to our
+  Current:  to documentation, www.nopCommerce.com to begin your e-commerce online store. We We are very excited to offer our new range of
+
+Line 39 differs:
+  Baseline: resources, and support to the nopCommerce included! nopCommerce is a fuly range so please register on our site.
+  Current:  offers a comprehensive base of information, have thought of everything and its all products. We will be constantly adding to our
+
+Line 40 differs:
+  Baseline: community. customizable shopping cart
+  Current:  resources, and support to the nopCommerce included! nopCommerce is a fully range so please register on our site.
+
+Line 41 differs:
+  Baseline: View News Archive
+  Current:  community. customizable shopping cart
+
+Line 42 differs:
+  Baseline: Community poll
+  Current:  View News Archive
+
+Line 43 differs:
+  Baseline: DO YOU LIKE NOPCOMMERCE?
+  Current:  Community poll
+
+Line 44 differs:
+  Baseline: O Excellent © Good © Poor O Very bad
+  Current:  DO YOU LIKE NOPCOMMERCE?
+
+Line 45 differs:
+  Baseline: Information Customer service My account Follow us
+  Current:  O Excellent © Good © Poor © Very bad
+
+Line 46 differs:
+  Baseline: = = — 00000
+  Current:  Information Customer service My account Follow us
+
+Line 47 differs:
+  Baseline: Shipping & retums News Orders
+  Current:  Sitemap Search My account (1) [x] (>) (0) ©
+
+Line 48 differs:
+  Baseline: Privacy notice Blog Addresses
+  Current:  Shipping & returns News Orders.
+
+Line 49 differs:
+  Baseline: Conditions of Use Recently viewed products Shopping cart Newsletter
+  Current:  Privacy notice Blog Addresses
+
+Line 50 differs:
+  Baseline: About us Compare products list Wishlist
+  Current:  Conditions of Use Recently viewed products Shopping cart Newsletter
+
+Line 51 differs:
+  Baseline: Contin Newprdce JNS—— en youre ee.
+  Current:  About us ‘Compare products list ‘Wishlist
+
+Line 52 differs:
+  Baseline: Powered by nopCommerce Copyright © 2025 nopCommerce demo store. All rghis reserved.
+  Current:  Contact us New products Apply for vendor account Enter your email here...
+
+Line 53 differs:
+  Baseline: 
+  Current:  Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. Al rights reserve.

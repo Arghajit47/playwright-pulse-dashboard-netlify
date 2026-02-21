@@ -1,0 +1,144 @@
+=== OCR Text Comparison Report ===
+Generated: 2025-12-07T16:56:17.642Z
+
+Status: TEXT DIFFERENCES DETECTED
+
+Line 1 differs:
+  Baseline: USDollar Register Login Wishlist (0)  [*) Shopping cart (0)
+  Current:  USDollar Register Login Wisnist(0) (3) Shopping cart 0)
+
+Line 6 differs:
+  Baseline: Home / Computers
+  Current:  Home / Electronics
+
+Line 7 differs:
+  Baseline: Categories Computers
+  Current:  Categories Electronics
+
+Line 9 differs:
+  Baseline: " Desktops Notebooks Software
+  Current:  P Camera & photo Cell phones Others
+
+Line 10 differs:
+  Baseline: Desktops. ~ =
+  Current:  Electronics
+
+Line 11 differs:
+  Baseline: Notebooks =»
+  Current:  a ~ {
+
+Line 12 differs:
+  Baseline: §i
+  Current:  lo ie
+
+Line 13 differs:
+  Baseline: Software H ed
+  Current:  Camera & photo ] a a
+
+Line 14 differs:
+  Baseline: Electronics - Sa
+  Current:  Cell phones NX a
+
+Line 15 differs:
+  Baseline: Apparel
+  Current:  Others n < -
+
+Line 16 differs:
+  Baseline: Digital downloads
+  Current:  Apparel
+
+Line 17 differs:
+  Baseline: Books
+  Current:  Digital downloads
+
+Line 18 differs:
+  Baseline: Jewelry
+  Current:  Books
+
+Line 19 differs:
+  Baseline: Gift Cards
+  Current:  Jewelry
+
+Line 20 differs:
+  Baseline: Manufacturers
+  Current:  Gift Cards
+
+Line 21 differs:
+  Baseline: Apple
+  Current:  Manufacturers
+
+Line 22 differs:
+  Baseline: HP
+  Current:  Apple
+
+Line 23 differs:
+  Baseline: View all
+  Current:  HP
+
+Line 24 differs:
+  Baseline: Popular tags
+  Current:  View all
+
+Line 25 differs:
+  Baseline: apparel gwesome
+  Current:  Popular tags
+
+Line 26 differs:
+  Baseline: book camera cell
+  Current:  apparel gwesome
+
+Line 27 differs:
+  Baseline: compact computer
+  Current:  book camera cell
+
+Line 28 differs:
+  Baseline: cool digital game
+  Current:  compact computer
+
+Line 29 differs:
+  Baseline: jeans jewelry nice shirt
+  Current:  cool digital game
+
+Line 30 differs:
+  Baseline: shoes
+  Current:  jeans jewelry nice shirt
+
+Line 31 differs:
+  Baseline: View all
+  Current:  shoes
+
+Line 32 differs:
+  Baseline: Information Customer service My account Follow us
+  Current:  View all
+
+Line 33 differs:
+  Baseline: Sitemap Search My account (1) [x] (>) (0) ©
+  Current:  Information Customer service My account Follow us
+
+Line 34 differs:
+  Baseline: Shipping & returns News Orders.
+  Current:  Sitemap Search My account (1) [x] (>) (0) ©
+
+Line 35 differs:
+  Baseline: Privacy notice Blog Addresses
+  Current:  Shipping & returns News Orders.
+
+Line 36 differs:
+  Baseline: Conditions of Use Recently viewed products Shopping cart Newsletter
+  Current:  Privacy notice Blog Addresses.
+
+Line 37 differs:
+  Baseline: About us Compare products list Wishlist
+  Current:  Conditions of Use Recently viewed products Shopping cart Newsletter
+
+Line 38 differs:
+  Baseline: Contact us New products Apply for vendor account Enter your email here...
+  Current:  About us ‘Compare products list ‘Wishlist
+
+Line 39 differs:
+  Baseline: Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. Al rights reserved.
+  Current:  Contact us New products Apply for vendor account Enter your email here...
+
+Line 40 differs:
+  Baseline: 
+  Current:  Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. Al rights reserved.

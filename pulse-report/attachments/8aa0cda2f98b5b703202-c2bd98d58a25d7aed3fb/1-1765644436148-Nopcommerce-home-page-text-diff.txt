@@ -1,0 +1,264 @@
+=== OCR Text Comparison Report ===
+Generated: 2025-12-13T16:46:43.820Z
+
+Status: TEXT DIFFERENCES DETECTED
+
+Line 6 differs:
+  Baseline: Li (Cl
+  Current:  oe (
+
+Line 7 differs:
+  Baseline: S880
+  Current:  [=]
+
+Line 8 differs:
+  Baseline: i» |
+  Current:  ),
+
+Line 9 differs:
+  Baseline: | |
+  Current:  fo}
+
+Line 10 differs:
+  Baseline: : team More |
+  Current:  amare Eo
+
+Line 21 differs:
+  Baseline: ~G
+  Current:  “Gz
+
+Line 23 differs:
+  Baseline: / 1
+  Current:  J
+
+Line 24 differs:
+  Baseline: J
+  Current:  4
+
+Line 25 differs:
+  Baseline: 4
+  Current:  Digital downloads
+
+Line 26 differs:
+  Baseline: Digital downloads
+  Current:  \
+
+Line 27 differs:
+  Baseline: \
+  Current:  Featured products
+
+Line 28 differs:
+  Baseline: Featured products
+  Current:  8.8 8 ¢
+
+Line 29 differs:
+  Baseline: 8.8 8 ¢
+  Current:  $1,200.00
+
+Line 30 differs:
+  Baseline: $1,200.00
+  Current:  pa Qo
+
+Line 31 differs:
+  Baseline: pa Qo
+  Current:  1 8 8.8.8 ¢
+
+Line 32 differs:
+  Baseline: 1 8.8.8 8 ¢
+  Current:  $1,800.00
+
+Line 33 differs:
+  Baseline: $1,800.00
+  Current:  = Qo
+
+Line 34 differs:
+  Baseline: par Qo
+  Current:  (9 n
+
+Line 35 differs:
+  Baseline: (9 n
+  Current:  L & LE
+
+Line 36 differs:
+  Baseline: L & LE \
+  Current:  LJ |1008as |
+
+Line 37 differs:
+  Baseline: i 10.08.45 |
+  Current:  he \
+
+Line 38 differs:
+  Baseline: he
+  Current:  © HR Ed \|
+
+Line 39 differs:
+  Baseline: © HR Ed \|
+  Current:  I RRC \
+
+Line 40 differs:
+  Baseline: PRY |
+  Current:  ue: Sn
+
+Line 41 differs:
+  Baseline: ue: Sn
+  Current:  | F— 3 \
+
+Line 42 differs:
+  Baseline: | F— 3 \
+  Current:  1 8 8.8.8 ¢
+
+Line 43 differs:
+  Baseline: 1 8.8.8 8 ¢
+  Current:  $245.00
+
+Line 44 differs:
+  Baseline: $245.00
+  Current:  pa Qo
+
+Line 45 differs:
+  Baseline: pa V
+  Current:  \
+
+Line 46 differs:
+  Baseline: A
+  Current:  1 8. 8. 8.8 4
+
+Line 47 differs:
+  Baseline: A > a
+  Current:  $25.00
+
+Line 48 differs:
+  Baseline: 1 8. 8. 8.8 4
+  Current:  pa Qo
+
+Line 49 differs:
+  Baseline: $25.00
+  Current:  News
+
+Line 50 differs:
+  Baseline: pa Qo
+  Current:  About nopCommerce
+
+Line 51 differs:
+  Baseline: News
+  Current:  -Tuesday, November 4, 2025
+
+Line 52 differs:
+  Baseline: About nopCommerce
+  Current:  It's stable and highly usable. From downloads to
+
+Line 53 differs:
+  Baseline: -Tuesday, November 4, 2025
+  Current:  documentation, www.nopCommerce.com offers a
+
+Line 54 differs:
+  Baseline: It's stable and highly usable. From downloads to
+  Current:  comprehensive base of information, resources, and
+
+Line 55 differs:
+  Baseline: documentation, www.nopCommerce.com offers a
+  Current:  support to the nopCommerce community.
+
+Line 56 differs:
+  Baseline: comprehensive base of information, resources, and
+  Current:  nopCommerce new release!
+
+Line 57 differs:
+  Baseline: support to the nopCommerce community.
+  Current:  -Tuesday, November 4, 2025
+
+Line 58 differs:
+  Baseline: nopCommerce new release!
+  Current:  nopCommerce includes everything you need to begin
+
+Line 59 differs:
+  Baseline: -Tuesday, November 4, 2025
+  Current:  your e-commerce online store. We have thought of
+
+Line 60 differs:
+  Baseline: nopCommerce includes everything you need to begin
+  Current:  everything and it's all included! nopCommerce is a
+
+Line 61 differs:
+  Baseline: your e-commerce online store. We have thought of
+  Current:  fully customizable shopping cart
+
+Line 62 differs:
+  Baseline: everything and it's all included! nopCommerce is a
+  Current:  New online store is open!
+
+Line 63 differs:
+  Baseline: fully customizable shopping cart
+  Current:  -Tuesday, November 4, 2025
+
+Line 64 differs:
+  Baseline: New online store is open!
+  Current:  The new nopCommerce store is open now! We are
+
+Line 65 differs:
+  Baseline: -Tuesday, November 4, 2025
+  Current:  very excited to offer our new range of products. We
+
+Line 66 differs:
+  Baseline: The new nopCommerce store is open now! We are
+  Current:  will be constantly adding to our range so please
+
+Line 67 differs:
+  Baseline: very excited to offer our new range of products. We
+  Current:  register on our site.
+
+Line 68 differs:
+  Baseline: will be constantly adding to our range so please
+  Current:  View News Archive
+
+Line 69 differs:
+  Baseline: register on our site.
+  Current:  Community poll
+
+Line 70 differs:
+  Baseline: View News Archive
+  Current:  DO YOU LIKE NOPCOMMERCE?
+
+Line 71 differs:
+  Baseline: Community poll
+  Current:  O Excellent O Good O Poor
+
+Line 72 differs:
+  Baseline: DO YOU LIKE NOPCOMMERCE?
+  Current:  O Very bad
+
+Line 73 differs:
+  Baseline: O Excellent OO Good © Poor
+  Current:  Follow us
+
+Line 74 differs:
+  Baseline: O Very bad
+  Current:  000006
+
+Line 75 differs:
+  Baseline: Follow us
+  Current:  Newsletter
+
+Line 76 differs:
+  Baseline: 0006
+  Current:  Enter your email here...
+
+Line 77 differs:
+  Baseline: Newsletter
+  Current:  Copyright © 2025 nopCommerce demo store. All rights reserved.
+
+Line 78 differs:
+  Baseline: Enter your email here...
+  Current:  Powered by
+
+Line 79 differs:
+  Baseline: Copyright © 2025 nopCommerce demo store. All rights reserved.
+  Current:  Missing line
+
+Line 80 differs:
+  Baseline: Powered by
+  Current:  Missing line
+
+Line 81 differs:
+  Baseline: 
+  Current:  Missing line

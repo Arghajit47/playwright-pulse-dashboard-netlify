@@ -1,0 +1,56 @@
+=== OCR Text Comparison Report ===
+Generated: 2025-12-12T19:47:23.932Z
+
+Status: TEXT DIFFERENCES DETECTED
+
+Line 1 differs:
+  Baseline: USDollar Register Login Wishiist(0)  [) Shopping cart (0)
+  Current:  USDollar + Register Login Wisnist(0) (3) Shopping cart 0)
+
+Line 2 differs:
+  Baseline: s00® 3
+  Current:  s00®
+
+Line 11 differs:
+  Baseline: camera, multiple colour options, and robust be |
+  Current:  camera, multiple colour options, and robust Ie |
+
+Line 17 differs:
+  Baseline: Online shopping is the process consumers go through to purchase products or services over the Internet. You can edit this in the admin
+  Current:  Online shopping is the process consumers go through to purchase products or services over the Intemet. You can edit this in the admin
+
+Line 22 differs:
+  Baseline: 3 ge 1
+  Current:  : 1008.25 \
+
+Line 31 differs:
+  Baseline: Tuesday, November 4, 2025 Tuesday, November 4, 2025 Tuesday, November 4, 2025
+  Current:  -Tuesday, November 4, 2025 -Tuesday, November 4, 2025 -Tuesday, November 4, 2025
+
+Line 32 differs:
+  Baseline: its stable and highly usable. From downloads ~~ nopCommerce includes everything you need ~The new nopCommerce store is open now!
+  Current:  It's stable and highly usable. From downloads nopCommerce includes everything you need The new nopCommerce store is open now!
+
+Line 35 differs:
+  Baseline: resources, and support to the nopCommerce included! nopCommerce is a fuly range so please register on our site.
+  Current:  resources, and support to the nopCommerce included! nopCommerce is a fully range so please register on our site.
+
+Line 40 differs:
+  Baseline: O Excellent © Good © Poor O Very bad
+  Current:  O Excellent © Good © Poor © Very bad
+
+Line 42 differs:
+  Baseline: = = — 00000
+  Current:  Sitemap Search My account (1) [x] (>) (0) ©
+
+Line 43 differs:
+  Baseline: Shipping & retums News Orders
+  Current:  Shipping & returns News Orders.
+
+Line 46 differs:
+  Baseline: About us Compare products list Wishlist
+  Current:  About us ‘Compare products list ‘Wishlist
+
+Line 48 differs:
+  Baseline: Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. All ights reserved.
+  Current:  Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. Al rights reserve.

@@ -1,0 +1,22 @@
+{
+  "name": "netlify-pulse-dashboard",
+  "version": "1.0.0",
+  "description": "This is a live demo of Pulse Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "pulse-dashboard": "pulse-dashboard",
+    "build": "npx generate-trend && cp -r node_modules/pulse-dashboard/.next . && cp node_modules/pulse-dashboard/next.config.ts . && cp -r node_modules/pulse-dashboard/public . || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": ">=15.0.0",
+    "pulse-dashboard": "^1.2.7",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}

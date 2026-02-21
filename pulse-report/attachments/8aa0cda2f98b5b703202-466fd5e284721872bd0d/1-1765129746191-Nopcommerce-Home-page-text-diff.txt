@@ -1,0 +1,196 @@
+=== OCR Text Comparison Report ===
+Generated: 2025-12-07T17:48:46.463Z
+
+Status: TEXT DIFFERENCES DETECTED
+
+Line 1 differs:
+  Baseline: USDollar Register Login Wisnist(0) (3) Shopping cart 0)
+  Current:  USDollar + Register Login Wisnist(0) (3) Shopping cart 0)
+
+Line 2 differs:
+  Baseline: 222% nopCommerce Search sore
+  Current:  s00®
+
+Line 3 differs:
+  Baseline: 0000
+  Current:  F113 nopCommerce Search store SEARCH
+
+Line 4 differs:
+  Baseline: Computers Electronics Apparel Digital downloads Books Jewelry Gift Cards
+  Current:  0000
+
+Line 5 differs:
+  Baseline: pry ~~ 1 3
+  Current:  Computers Electronics Apparel Digital downloads Books Jewelry Gift Cards
+
+Line 6 differs:
+  Baseline: iPhone 16
+  Current:  —
+
+Line 7 differs:
+  Baseline: + 1 .
+  Current:  Galaxy S24 [_N
+
+Line 8 differs:
+  Baseline: 1 An upgraded A18 chip that
+  Current:  Step up your tech game with Samsung Galaxy
+
+Line 9 differs:
+  Baseline: supports Apple Intelligence, a dual-
+  Current:  S24, S24+, or S24 Ultra phones! wn
+
+Line 10 differs:
+  Baseline: lens camera system that takes
+  Current:  With a supercharged processor, enhanced
+
+Line 11 differs:
+  Baseline: 4 TN great photos, a Camera Control
+  Current:  camera, multiple colour options, and robust Ie |
+
+Line 12 differs:
+  Baseline: button for quick camera access,
+  Current:  battery life, these Al phones* are the smart
+
+Line 13 differs:
+  Baseline: and a customizable Action button.
+  Current:  choice for smartphone users. oO
+
+Line 14 differs:
+  Baseline: L\ \
+  Current:  —
+
+Line 21 differs:
+  Baseline: TTT
+  Current:  Featured products
+
+Line 22 differs:
+  Baseline: -_ Db
+  Current:  : 1008.25 \
+
+Line 23 differs:
+  Baseline: Lad
+  Current:  ZF |
+
+Line 24 differs:
+  Baseline: Featured products
+  Current:  [2 \
+
+Line 25 differs:
+  Baseline: |
+  Current:  “mano |
+
+Line 26 differs:
+  Baseline: | 2 [0:08 |
+  Current:  Build your own computer Apple MacBook Pro HTC smartphone $25 Virtual Gift Card
+
+Line 27 differs:
+  Baseline: B=
+  Current:  R88 8 8+ R88 2 8 4 R88 2 8 4 R88 2 8 4
+
+Line 28 differs:
+  Baseline: pba |
+  Current:  $1,200.00 $1,800.00 $245.00 $25.00
+
+Line 29 differs:
+  Baseline: L
+  Current:  News
+
+Line 30 differs:
+  Baseline: Build your own computer Apple MacBook Pro HTC smartphone $25 Virtual Gift Card
+  Current:  About nopCommerce nopCommerce new release! New online store is open!
+
+Line 31 differs:
+  Baseline: R88 8 8+ R88 2 8 4 R88 2 8 4 R88 2 8 4
+  Current:  -Tuesday, November 4, 2025 -Tuesday, November 4, 2025 -Tuesday, November 4, 2025
+
+Line 32 differs:
+  Baseline: $1,200.00 $1,800.00 $245.00 $25.00
+  Current:  It's stable and highly usable. From downloads nopCommerce includes everything you need The new nopCommerce store is open now!
+
+Line 33 differs:
+  Baseline: ADD TO CART [It=iliv] ADD TO CART [It=iliv] ADD TO CART [It=iliv] ADD TO CART [It=iliv]
+  Current:  to documentation, www.nopCommerce.com to begin your e-commerce online store. We We are very excited to offer our new range of
+
+Line 34 differs:
+  Baseline: News
+  Current:  offers a comprehensive base of information, have thought of everything and its all products. We will be constantly adding to our
+
+Line 35 differs:
+  Baseline: About nopCommerce nopCommerce new release! New online store is open!
+  Current:  resources, and support to the nopCommerce included! nopCommerce is a fully range so please register on our site.
+
+Line 36 differs:
+  Baseline: -Tuesday, November 4, 2025 -Tuesday, November 4, 2025 -Tuesday, November 4, 2025
+  Current:  community. customizable shopping cart
+
+Line 37 differs:
+  Baseline: It's stable and highly usable. From downloads nopCommerce includes everything you need The new nopCommerce store is open now!
+  Current:  View News Archive
+
+Line 38 differs:
+  Baseline: to documentation, www.nopCommerce.com to begin your e-commerce online store. We We are very excited to offer our new range of
+  Current:  Community poll
+
+Line 39 differs:
+  Baseline: offers a comprehensive base of information, have thought of everything and its all products. We will be constantly adding to our
+  Current:  DO YOU LIKE NOPCOMMERCE?
+
+Line 40 differs:
+  Baseline: resources, and support to the nopCommerce included! nopCommerce is a fully range so please register on our site.
+  Current:  O Excellent © Good © Poor © Very bad
+
+Line 41 differs:
+  Baseline: community. customizable shopping cart
+  Current:  Information Customer service My account Follow us
+
+Line 42 differs:
+  Baseline: View News Archive
+  Current:  Sitemap Search My account (1) [x] (>) (0) ©
+
+Line 43 differs:
+  Baseline: Community poll
+  Current:  Shipping & returns News Orders.
+
+Line 44 differs:
+  Baseline: DO YOU LIKE NOPCOMMERCE?
+  Current:  Privacy notice Blog Addresses
+
+Line 45 differs:
+  Baseline: O Excellent © Good © Poor © Very bad
+  Current:  Conditions of Use Recently viewed products Shopping cart Newsletter
+
+Line 46 differs:
+  Baseline: Information Customer service My account Follow us
+  Current:  About us ‘Compare products list ‘Wishlist
+
+Line 47 differs:
+  Baseline: Sitemap Search My account (1) [x] (>) (0) ©
+  Current:  Contact us New products Apply for vendor account Enter your email here...
+
+Line 48 differs:
+  Baseline: Shipping & returns News Orders.
+  Current:  Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. Al rights reserve.
+
+Line 49 differs:
+  Baseline: Privacy notice Blog Addresses
+  Current:  Missing line
+
+Line 50 differs:
+  Baseline: Conditions of Use Recently viewed products Shopping cart Newsletter
+  Current:  Missing line
+
+Line 51 differs:
+  Baseline: About us ‘Compare products list ‘Wishlist
+  Current:  Missing line
+
+Line 52 differs:
+  Baseline: Contact us New products Apply for vendor account Enter your email here...
+  Current:  Missing line
+
+Line 53 differs:
+  Baseline: Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. Al rights reserve.
+  Current:  Missing line
+
+Line 54 differs:
+  Baseline: 
+  Current:  Missing line

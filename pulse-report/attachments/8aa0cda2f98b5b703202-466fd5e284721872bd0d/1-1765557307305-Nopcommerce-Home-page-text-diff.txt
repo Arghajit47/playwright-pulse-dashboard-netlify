@@ -1,0 +1,180 @@
+=== OCR Text Comparison Report ===
+Generated: 2025-12-12T16:34:47.790Z
+
+Status: TEXT DIFFERENCES DETECTED
+
+Line 1 differs:
+  Baseline: USDollar Register Login Wishiist(0)  [) Shopping cart (0)
+  Current:  USDollar + Register Login Wisnist(0) (3) Shopping cart 0)
+
+Line 2 differs:
+  Baseline: s00® 3
+  Current:  s00®
+
+Line 6 differs:
+  Baseline: —
+  Current:  Galaxy S24 [NV
+
+Line 7 differs:
+  Baseline: Galaxy S24 [_N
+  Current:  Step up your tech game with Samsung Galaxy
+
+Line 8 differs:
+  Baseline: Step up your tech game with Samsung Galaxy
+  Current:  S24, S24+, or S24 Ultra phones! |
+
+Line 9 differs:
+  Baseline: S24, S24+, or S24 Ultra phones! wn
+  Current:  (22 1
+
+Line 11 differs:
+  Baseline: camera, multiple colour options, and robust be |
+  Current:  camera, multiple colour options, and robust 4
+
+Line 13 differs:
+  Baseline: choice for smartphone users. oO
+  Current:  choice for smartphone users. O
+
+Line 14 differs:
+  Baseline: —
+  Current:  et
+
+Line 15 differs:
+  Baseline: o
+  Current:  Learn | oO J
+
+Line 16 differs:
+  Baseline: Welcome to our store
+  Current:  o
+
+Line 17 differs:
+  Baseline: Online shopping is the process consumers go through to purchase products or services over the Internet. You can edit this in the admin
+  Current:  Welcome to our store
+
+Line 18 differs:
+  Baseline: site.
+  Current:  Online shopping is the process consumers go through to purchase products or services over the Intemet. You can edit this in the admin
+
+Line 19 differs:
+  Baseline: If you have questions, see the Documentation, or post in the Forums at nopCommerce.com
+  Current:  site.
+
+Line 20 differs:
+  Baseline: Electronics Apparel Digital downloads
+  Current:  If you have questions, see the Documentation, or post in the Forums at nopCommerce.com
+
+Line 21 differs:
+  Baseline: Featured products
+  Current:  Electronics Apparel Digital downloads
+
+Line 22 differs:
+  Baseline: 3 ge 1
+  Current:  Featured products
+
+Line 23 differs:
+  Baseline: ZF |
+  Current:  3 ge 1
+
+Line 24 differs:
+  Baseline: [2 \
+  Current:  ZF |
+
+Line 25 differs:
+  Baseline: “mano |
+  Current:  [2 \
+
+Line 26 differs:
+  Baseline: Build your own computer Apple MacBook Pro HTC smartphone $25 Virtual Gift Card
+  Current:  “mano |
+
+Line 27 differs:
+  Baseline: R88 8 8+ R88 2 8 4 R88 2 8 4 R88 2 8 4
+  Current:  Build your own computer Apple MacBook Pro HTC smartphone $25 Virtual Gift Card
+
+Line 28 differs:
+  Baseline: $1,200.00 $1,800.00 $245.00 $25.00
+  Current:  R88 8 8+ R88 2 8 4 R88 2 8 4 R88 2 8 4
+
+Line 29 differs:
+  Baseline: News
+  Current:  $1,200.00 $1,800.00 $245.00 $25.00
+
+Line 30 differs:
+  Baseline: About nopCommerce nopCommerce new release! New online store is open!
+  Current:  News
+
+Line 31 differs:
+  Baseline: Tuesday, November 4, 2025 Tuesday, November 4, 2025 Tuesday, November 4, 2025
+  Current:  About nopCommerce nopCommerce new release! New online store is open!
+
+Line 32 differs:
+  Baseline: its stable and highly usable. From downloads ~~ nopCommerce includes everything you need ~The new nopCommerce store is open now!
+  Current:  -Tuesday, November 4, 2025 -Tuesday, November 4, 2025 -Tuesday, November 4, 2025
+
+Line 33 differs:
+  Baseline: to documentation, www.nopCommerce.com to begin your e-commerce online store. We We are very excited to offer our new range of
+  Current:  It's stable and highly usable. From downloads nopCommerce includes everything you need The new nopCommerce store is open now!
+
+Line 34 differs:
+  Baseline: offers a comprehensive base of information, have thought of everything and its all products. We will be constantly adding to our
+  Current:  to documentation, www.nopCommerce.com to begin your e-commerce online store. We We are very excited to offer our new range of
+
+Line 35 differs:
+  Baseline: resources, and support to the nopCommerce included! nopCommerce is a fuly range so please register on our site.
+  Current:  offers a comprehensive base of information, have thought of everything and its all products. We will be constantly adding to our
+
+Line 36 differs:
+  Baseline: community. customizable shopping cart
+  Current:  resources, and support to the nopCommerce included! nopCommerce is a fully range so please register on our site.
+
+Line 37 differs:
+  Baseline: View News Archive
+  Current:  community. customizable shopping cart
+
+Line 38 differs:
+  Baseline: Community poll
+  Current:  View News Archive
+
+Line 39 differs:
+  Baseline: DO YOU LIKE NOPCOMMERCE?
+  Current:  Community poll
+
+Line 40 differs:
+  Baseline: O Excellent © Good © Poor O Very bad
+  Current:  DO YOU LIKE NOPCOMMERCE?
+
+Line 41 differs:
+  Baseline: Information Customer service My account Follow us
+  Current:  O Excellent © Good © Poor © Very bad
+
+Line 42 differs:
+  Baseline: = = — 00000
+  Current:  Information Customer service My account Follow us
+
+Line 43 differs:
+  Baseline: Shipping & retums News Orders
+  Current:  Sitemap Search My account (1) [x] (>) (0) ©
+
+Line 44 differs:
+  Baseline: Privacy notice Blog Addresses
+  Current:  Shipping & returns News Orders.
+
+Line 45 differs:
+  Baseline: Conditions of Use Recently viewed products Shopping cart Newsletter
+  Current:  Privacy notice Blog Addresses
+
+Line 46 differs:
+  Baseline: About us Compare products list Wishlist
+  Current:  Conditions of Use Recently viewed products Shopping cart Newsletter
+
+Line 47 differs:
+  Baseline: Contact us New products Apply for vendor account Enter your email here...
+  Current:  About us ‘Compare products list ‘Wishlist
+
+Line 48 differs:
+  Baseline: Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. All ights reserved.
+  Current:  Contact us New products Apply for vendor account Enter your email here...
+
+Line 49 differs:
+  Baseline: 
+  Current:  Powered by nopCommerce ‘Copyright © 2025 nopCommerce demo store. Al rights reserve.

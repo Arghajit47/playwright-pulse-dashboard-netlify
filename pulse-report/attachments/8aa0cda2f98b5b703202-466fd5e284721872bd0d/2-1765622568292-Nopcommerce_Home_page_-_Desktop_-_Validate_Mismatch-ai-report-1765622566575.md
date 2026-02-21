@@ -1,0 +1,6 @@
+## UI Change Detection Report: Category Switch
+
+| Location | Baseline State (Old) | Current State (New) | Description |
+| :--- | :--- | :--- | :--- |
+| Hero banner / Main carousel | Banner displayed 'iPhone 16' with multiple colorful iPhone devices (black, white, pink, green, purple) arranged horizontally on the left side, with product description text and yellow 'Learn More' button on the right | Banner now displays 'Galaxy S24' with a single gold/cream colored Samsung phone on the right side, with product description text and yellow 'Learn More' button on the left | The main hero banner completely changed from promoting iPhone 16 to Galaxy S24, with reversed layout and different product imagery. |
+| Hero banner text content | Text described 'An upgraded A18 chip that supports Apple Intelligence, a dual-lens camera system that takes great photos, a Camera Control button for quick camera access, and a customizable Action button' | Text now describes 'Step up your tech game with Samsung Galaxy S24, S24+, or S24 Ultra phones! With a supercharged processor, enhanced camera, multiple colour options, and robust battery life, these AI phones are the smart choice for smartphone users' | The promotional text content changed from iPhone 16 features to Galaxy S24 features. |
