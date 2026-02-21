@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pulse-dashboard": "pulse-dashboard",
-    "build": "npx generate-trend && cp -r node_modules/pulse-dashboard/.next . && cp node_modules/pulse-dashboard/next.config.ts . && cp -r node_modules/pulse-dashboard/public . || true"
+    "build": "npx generate-trend && if [ -d node_modules/pulse-dashboard/.next ]; then cp -r node_modules/pulse-dashboard/.next .; fi && if [ -f node_modules/pulse-dashboard/next.config.ts ]; then cp node_modules/pulse-dashboard/next.config.ts .; fi && if [ -d node_modules/pulse-dashboard/public ]; then cp -r node_modules/pulse-dashboard/public .; fi"
   },
   "keywords": [],
   "author": "",

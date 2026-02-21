@@ -37,5 +37,6 @@ next.config.ts
 .DS_Store
 *.pem
 
-# pulse-report history (optional - keep if you want to track trends in git)
-# pulse-report/history/*.json
+# pulse-report large files
+pulse-report/*.html
+pulse-report/history/*.json
